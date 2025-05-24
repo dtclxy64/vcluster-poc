@@ -22,4 +22,8 @@ experimental:
       - apiVersion: traefik.io/v1alpha1
         kind: IngressRouteTCP
       - apiVersion: traefik.io/v1alpha1
-        kind: IngressRouteUDP                
+        kind: IngressRouteUDP
+      - apiVersion: networking.istio.io/v1
+        kind: VirtualService
+      - apiVersion: networking.istio.io/v1
+        kind: DestinationRule                                    
